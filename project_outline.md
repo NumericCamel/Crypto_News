@@ -11,15 +11,15 @@ We will establish a system to fetch raw news data multiple times a day, with the
 
 After pulling the news, we will immediately preprocess the text. The preprocessing steps are:
 
-**Text Cleaning: **
+**Text Cleaning:**
 - Remove special characters and numbers unless they are significant for sentiment.
 - Convert all text to lowercase for uniformity.
 
-**Tokenization: **
+**Tokenization:**
 Split the text into individual words or tokens
 
-**Stop Words Removal: **
+**Stop Words Removal:**
 Eliminate common words that do not contribute to sentiment or topic understanding, such as 'the', 'and', 'is', etc.
 
-**Lemmatization: **
+**Lemmatization:**
 Convert words to their base or dictionary form (e.g., 'running' to 'run', 'buying' to 'buy') to standardize the vocabulary.
